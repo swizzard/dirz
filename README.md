@@ -1,26 +1,13 @@
-# dirz
+# dirz 
+A language-agnostic project template utility.
 
-Eventually a language-agnostic templating thing. Right now, just some
-ini-parsing in Clojure.
+Initial thoughts are [here](http://coleman.codes/post/language-agnostic-project-template-dsl/).
 
-## Usage
+## Contributing
 
-CLI stuff TK. Currently, `dirz.parsing` contains an instaparse parser and some
-helper funcs to convert ini files to a vector of maps:    
+TODO: outline a strategy similar to [what Katrina Owen recommends on the Splice blog.](https://splice.com/blog/contributing-open-source-git-repositories-go/)
 
-    // my-ini.ini    
+## Helpful info about Go
 
-    [section1]    foo=bar    bar=baz    [section2]    what=this    who=me    
-
-    
-    // becomes    
-
-    [{:Section "section1" "foo" "bar" "bar" "baz"} {:Section "section2" "what"
-    "this" "who" "me"}]
-
-## License
-
-Copyright © 2015 Sam Raker & Coleman McFarland
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+- [Strings, runes, and bytes in Go](https://blog.golang.org/strings)
+- [Text normalization in Go](https://blog.golang.org/normalization)
